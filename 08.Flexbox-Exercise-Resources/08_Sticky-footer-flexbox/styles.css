@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font: 1.5/16px Helvetica, san-serif;
+}
+
+header {
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+}
+
+header h1 {
+    padding: 1em;
+}
+
+main {
+    padding: 2em;
+}
+
+main h2,
+main p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+}
+
+footer p {
+    padding: 0 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}

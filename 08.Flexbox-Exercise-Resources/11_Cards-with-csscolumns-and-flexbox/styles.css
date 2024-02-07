@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    align-items: center;
+    padding: 2em;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+div {
+    padding-bottom: 2em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h2{
+    padding-top: 0;
+    flex-basis: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cards-layout-masonry {
+    max-width: 60em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 3em;
+}
+
+.card-masonry {
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+    border-radius: 0.3em;
+    background: #fff;
+    box-shadow: 0 0 0.5em 0 rgb(0,0,0,0.2);
+}
+
+.cards-layout-flex {
+    max-width: 60em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 3em;
+}
+
+.card-flex {
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+    border-radius: 0.3em;
+    background: #fff;
+    box-shadow: 0 0 0.5em 0 rgb(0,0,0,0.2);
+}
+
+section {
+    flex: 1 0 auto;
+    padding: 1.5em;
+}
+
+footer {
+    border-top: 0.1em solid #ccc;
+}
+
+footer p {
+    margin: 1.5em;
+}

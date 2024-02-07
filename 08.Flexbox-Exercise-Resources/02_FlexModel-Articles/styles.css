@@ -1,0 +1,19 @@
+html {
+    font: 1.5 Helvetica, serif;
+}
+
+h2 {
+    font: 1.2 Georgia, serif;
+}
+
+section {
+    max-width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 2em;
+}
+
+section article {
+    flex: 0 0 200px;
+}
